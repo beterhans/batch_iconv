@@ -42,8 +42,8 @@ if [ -z $EXT ]
         then
 		echo ""
         echo "No file type defined use default txt type"
-		echo "example: bash batch_iconv.sh foldertoworkwith SHIFT_JISX0213 txt UTF-8"
-		echo "or like: bash batch_iconv.sh foldertoworkwith SHIFT_JISX0213"
+		echo "example: bash batch_iconv.sh foldertoworkwith CP932 txt UTF-8"
+		echo "or like: bash batch_iconv.sh foldertoworkwith CP932"
 		echo ""
         EXT="txt"
 
@@ -57,8 +57,8 @@ if [ -z $SRC_ENCODING ]
 then
 	echo ""
 	echo "PLEASE tell me what language encoding the files is..."
-	echo "like:     bash batch_iconv.sh foldertoworkwith SHIFT_JISX0213 txt UTF-8 "
-	echo "or like:  bash batch_iconv.sh foldertoworkwith SHIFT_JISX0213"
+	echo "like:     bash batch_iconv.sh foldertoworkwith CP932 txt UTF-8 "
+	echo "or like:  bash batch_iconv.sh foldertoworkwith CP932"
 	exit
 	
 else
